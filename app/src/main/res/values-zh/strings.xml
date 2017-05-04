@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">spacing</string>
+    <string name="clear">清除</string>
+    <string name="convert">轉換</string>
+</resources>
