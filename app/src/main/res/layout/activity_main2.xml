@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="tk.fei0.spacing.Main2Activity">
+    tools:context="com.iatfei.spacing.Main2Activity">
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="330dp"
-        android:layout_height="60dp"
+        android:layout_height="120dp"
         android:layout_marginTop="15dp"
-        android:text="此 爲 本 人 第 一 個 app 作 品 ， 從 功 能 （ 括 號 、 數 字 等 處 理 等 ） ， 效 率 以 致 錯 誤 處 理 都 未 予 完 善 。 還 請 大 家 過 看 源 碼 ， 不 吝 指 教 。"
+        android:text="此 爲 本 人 第 一 個 app 作 品 ， 從 功 能 （ 括 號 、 數 字 等 處 理 等 ） ， 效 率 以 致 錯 誤 處 理 都 未 予 完 善 。 還 請 大 家 過 看 源 碼 ， 不 吝 指 教 。\n兩 年 後 ， 本 人  已 完 成 一 個 應 用 程  式 。 重 回 舊 地 ， 用 三 小 時 把 問 題 修 復 。 隔 格 成 爲 本 人 人 生 第 一 個 開 始 ， 第 二 個 完 成 的  app 作 品 。"
         app:layout_constraintTop_toBottomOf="@+id/textView3"
         android:layout_marginLeft="8dp"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -116,8 +116,8 @@
         android:layout_marginBottom="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
-        android:text="ver. 0.0.1 alpha"
+        android:text="ver. 0.9.0"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent" />
-</android.support.constraint.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

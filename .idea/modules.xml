@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spacing.iml" filepath="$PROJECT_DIR$/spacing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spacing-android.iml" filepath="$PROJECT_DIR$/spacing-android.iml" />
     </modules>
   </component>
 </project>

@@ -1,11 +1,12 @@
-package tk.fei0.spacing;
+package com.iatfei.spacing;
 
 import android.content.Intent;
 import android.net.Uri;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class Main2Activity extends AppCompatActivity {
 
@@ -20,17 +21,17 @@ public class Main2Activity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main2);
         emailIntent.setType("plain/text");
-        emailIntent.putExtra(android.content.Intent.EXTRA_EMAIL, new String[]{"fei@feix.tk"});
+        emailIntent.putExtra(android.content.Intent.EXTRA_EMAIL, new String[]{"apps@iatfei.com"});
         emailIntent.putExtra(android.content.Intent.EXTRA_SUBJECT, "有 關 隔 格 app 事 宜 。");
-        button2 = (Button) findViewById(R.id.button2);
-        button4 = (Button) findViewById(R.id.button4);
-        button7 = (Button) findViewById(R.id.button7);
+        button2 = findViewById(R.id.button2);
+        button4 = findViewById(R.id.button4);
+        button7 = findViewById(R.id.button7);
 
 
         button2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/"));
+                Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/fei0316/spacing-android/"));
                 startActivity(browserIntent);
             }
         });
@@ -38,7 +39,7 @@ public class Main2Activity extends AppCompatActivity {
         button7.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://fei0.tk/"));
+                Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://iatfei.com/"));
                 startActivity(browserIntent);
             }
         });
