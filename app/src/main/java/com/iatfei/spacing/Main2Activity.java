@@ -10,7 +10,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class Main2Activity extends AppCompatActivity {
 
-    final Intent emailIntent = new Intent(android.content.Intent.ACTION_SEND);
+    private final Intent emailIntent = new Intent(android.content.Intent.ACTION_SEND);
 
     private Button button2;
     private Button button4;
